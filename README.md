@@ -8,3 +8,8 @@
     6-create your Database with name "articles" <br> 
     7-php artisan migrate --seed  <br>
     8-php artisan serve <br>
+    
+    for admin panel: <br>
+    http://articles.test/admin  <br>
+    mail : admin@gmail.com <br>
+    password : 123456789 <br>
