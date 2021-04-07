@@ -10,6 +10,6 @@
     8-php artisan serve <br>
     
     for admin panel: 
-    http://articles.test/admin  
+    http://127.0.0.1/admin  
     mail : admin@gmail.com 
     password : 123456789 
