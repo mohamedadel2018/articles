@@ -5,6 +5,6 @@
     3-php artisan key:generate <br>
     4-npm install <br>
     5-npm run dev <br>
-    6-create your Database <br> 
+    6-create your Database with name "articles" <br> 
     7-php artisan migrate --seed  <br>
     8-php artisan serve <br>
