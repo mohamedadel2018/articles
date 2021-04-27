@@ -147,6 +147,7 @@
                  flash('Catigory Deleted Successfully', 'success');
                  $('#success').html(res.data.message);
                 this.getcatigory();
+                 this.clearData();
                 }).catch(err => console.log(err));
         },
         handleClose(done) {
