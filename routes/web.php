@@ -42,6 +42,7 @@ Route::post('getcomments/{id}', [CommentController::class,'getcomments']);
 Route::get('/admin', function(){
     return view('admin.login');
 });
+Route::get('/admin-logout', [AdminController::class , 'logout'])->name('admin-logout');
 
 Route::post('/checkLogin', [AdminController::class , 'checkadminlogin'])->name('checkadminlogin');
 
