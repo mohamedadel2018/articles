@@ -171,6 +171,8 @@ __webpack_require__.r(__webpack_exports__);
         $('#success').html(res.data.message);
 
         _this3.getcatigory();
+
+        _this3.clearData();
       })["catch"](function (err) {
         return console.log(err);
       });
